@@ -1,0 +1,11 @@
+ipykernel==6.29.5
+ipywidgets==8.1.5
+torch==2.5.0
+torchvision==0.20.0
+setuptools<71.0.0
+scikit-learn 
+datasets==3.1.0
+accelerate==1.2.1
+hf-transfer==0.1.8
+# ModernBERT is not yet available in an official release, so we need to install it from github
+git+https://github.com/huggingface/transformers.git@6e0515e99c39444caae39472ee1b2fd76ece32f1#egg=transformers
