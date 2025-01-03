@@ -1,6 +1,6 @@
 # Fine-tuning ModernBERT
 
-This is a simple yet practical example on how to train [ModernBERT](https://huggingface.co/answerdotai/ModernBERT-base) to classify texts. For this I've created a small, synthetic dataset called [`cats-and-dogs`](https://huggingface.co/datasets/fkuhne/cats-and-dogs) with three classes: `cats`, `dogs`, and `undefined`.
+This is a simple yet practical example on how to train [ModernBERT](https://huggingface.co/blog/modernbert) to classify texts. For this I've created a small, synthetic dataset called [`cats-and-dogs`](https://huggingface.co/datasets/fkuhne/cats-and-dogs) with three classes: `cats`, `dogs`, and `undefined`.
 
 The trained model is [published at Hugging Face](https://huggingface.co/fkuhne/ModernBERT-cats-and-dogs) and if you don't want to train it again and just run inferences on it you can run the [`inference.ipynb`](./inference.ipynb) notebook.
 
@@ -22,6 +22,7 @@ Run the [`ìnference.ipynb`](./inference.ipynb) notebook to run some tests. The 
 
 
 ## References
+- https://huggingface.co/blog/modernbert.
 - https://huggingface.co/blog/davidberenstein1957/fine-tune-modernbert-on-synthetic-data.
 - https://www.philschmid.de/fine-tune-modern-bert-in-2025.
 - https://huggingface.co/answerdotai/ModernBERT-base.
